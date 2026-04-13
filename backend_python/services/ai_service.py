@@ -17,6 +17,7 @@ def predict_days_left(balance, transactions):
     total = sum(t.amount for t in transactions)
     days = len(set(t.date for t in transactions))
 
+
     if days == 0:
         return 30
 
