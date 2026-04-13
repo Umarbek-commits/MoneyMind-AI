@@ -1,0 +1,26 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+html, body, #root {
+  background: #080814;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* Desktop centering wrapper */
+@media (min-width: 431px) {
+  #root {
+    background: #04040a;
+  }
+}
+
+#root {
+  width: 100%;
+  max-width: none;   /* 💥 УБИРАЕМ ОГРАНИЧЕНИЕ */
+  margin: 0;         /* 💥 УБИРАЕМ ЦЕНТРИРОВАНИЕ */
+}
+
+body {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "MoneyMind AI",
+  "short_name": "MoneyMind",
+  "description": "Mobile-first financial dashboard with AI assistance.",
+  "theme_color": "#080814",
+  "background_color": "#080814",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
